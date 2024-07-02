@@ -16,13 +16,13 @@ while True:
             print(float(operands[0])+float(operands[1]))
         elif "-" in calc_op:
             operands = calc_op.split("-")
-            print((float(operands[0])-float(operands[1]))
+            print(float(operands[0])-float(operands[1]))
         elif '/' in calc_op:
             operands = calc_op.split("/")
             print(float(operands[0]) / float(operands[1]))
         elif '*' in calc_op:
             operands = calc_op.split("*")
-            print((float(operands[0])*float(operands[1]))          
+            print(float(operands[0])*float(operands[1]))          
     else:
         print("Invalid input, try again.")
     
